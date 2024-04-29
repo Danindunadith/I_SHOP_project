@@ -91,7 +91,7 @@ const UpdatePayment = () => {
     return (
         <div className="addOrder">
             <Link to={""}>Back</Link>
-            <h3>Edit Orders</h3>
+            <h3>Edit Payment</h3>
             <form className="addOrderForm" onSubmit={submitForm}>
                 <div className="inputGroup">
                     <label htmlFor="reportName">Report Name</label>

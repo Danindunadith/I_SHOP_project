@@ -74,9 +74,9 @@ const PaymentList = () => {
   return (
     <div className="OrderTable">
       <Link to="/payments" className="addButton">
-        Place Orders
+        Make payments
       </Link>
-      <h3>Order List</h3>
+      <h3>Payment List</h3>
       <input
         type="text"
         placeholder="Search..."
@@ -87,12 +87,12 @@ const PaymentList = () => {
       <table border={1} cellPadding={10} cellSpacing={0}>
         <thead>
           <tr>
-            <th>Order_Id</th>
-            <th>Supplier's name</th>
-            <th>Category</th>
-            <th>Brand</th>
-            <th>Model</th>
-            <th>Quantity</th>
+            <th>Payment_Id</th>
+            <th>Report type</th>
+            <th>Report category</th>
+            <th>Name</th>
+            <th>Purpose</th>
+            <th>Amount</th>
             <th>Edit</th>
             <th>Delete</th>
           </tr>
